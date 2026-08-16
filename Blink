@@ -4,7 +4,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Workspace = game:GetService("Workspace")
 
 local LocalPlayer = Players.LocalPlayer
-local BlinkModel = "https://github.com/eliazbp92-collab/Endless-mode/raw/main/Blink.rbxm"
+local BlinkModel = "https://github.com/eoyoustme/Endless-Doors/raw/main/BLink.rbxm"
 local Close = nil
 
 local gameData = ReplicatedStorage:WaitForChild("GameData")
