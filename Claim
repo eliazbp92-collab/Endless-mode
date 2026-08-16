@@ -2,7 +2,7 @@ game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
 local damages = true
 local tweenservice = game:GetService("TweenService")
 
-local ClaimModel = "https://github.com/eliazbp92-collab/Endless-mode/raw/main/Plsworkclaim.rbxm"
+local ClaimModel = "game:GetObjects(rbxassetid://11403215085)[1]"
 
 function getgithubmodeL(url)
 	if not (writefile and getcustomasset and request) then return nil end
