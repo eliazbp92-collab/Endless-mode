@@ -1,6 +1,6 @@
 
 local currentLoadedRoom=workspace.CurrentRooms[game:GetService("ReplicatedStorage").GameData.LatestRoom.Value]
-local eyes=game:GetObjects("rbxassetid://11411321855")[1]
+local eyes=game:GetObjects("https://github.com/eliazbp92-collab/Endless-mode/raw/main/Plsworkclaim.rbxm")[1]
  
 local num=0
 
