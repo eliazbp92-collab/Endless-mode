@@ -1,6 +1,6 @@
 local G = getgenv()
 local currentLoadedRoom = workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value]
-local eyes = game:GetObjects("https://github.com/eliazbp92-collab/Endless-mode/raw/main/Claim%20model.rbxm")[1]
+local eyes = game:GetObjects("rbxassetid://96783992805075")[1]
 
 local num = 0
 
