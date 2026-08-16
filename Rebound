@@ -1,6 +1,6 @@
 game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
 local rng = Random.new()
-local ai = rng:NextInteger(35, 1050)
+local ai = rng:NextInteger(35, 50)
 
 function light(tim, color0, color1)
 	local tweenservice = game:GetService("TweenService")
@@ -115,7 +115,7 @@ local entity = Spawner:Create({
 	Damage = {
 		Enabled = true,
 		Range = 33,
-		Amount = 100
+		Amount = 22222
 	},
 	Crucifixion = {
 		Enabled = true,
