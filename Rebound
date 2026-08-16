@@ -81,7 +81,7 @@ local Spawner = loadstring(game:HttpGet("https://raw.githubusercontent.com/eoyou
 local entity = Spawner:Create({
 	Entity = {
 		Name = "Rebound",
-		Asset = "https://github.com/eoyoustme/Endless-Doors/blob/main/Rebound.rbxm?raw=true",
+		Asset = "https://github.com/eliazbp92-collab/Endless-mode/blob/main/Rebound%20endless%20doors%20remake.rbxm?raw=true",
 		HeightOffset = 1
 	},
 	Lights = {
