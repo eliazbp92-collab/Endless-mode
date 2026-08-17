@@ -14,7 +14,7 @@ Caption('mode made by Rebound',1)
 wait(2)
 Caption('Pro tip, /god for god mode.',3)
 wait(3)
-Caption('this script is copy of a differnt scipt soooooooooo it fine',3)
+Caption('this script is copy of a differnt scipt soooooooooo it fine and credit to Hunger for Matcher jumpscare and Rebound, and also claim',3)
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/Endless-Doors-In-Doors/main/custom%20doors%20sounds.txt"))()
 loadstring(game:HttpGet("https://pastebin.com/raw/6brG9uma"))()
