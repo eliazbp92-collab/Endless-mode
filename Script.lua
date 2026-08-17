@@ -40,7 +40,7 @@ coroutine.wrap(function()
           return
     end
         wait(1.5)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/eliazbp92-collab/Endless-mode/refs/heads/main/Rebound"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/eliazbp92-collab/Endless-mode/refs/heads/main/Rebound.lua"))()
 if reb == false then
 wait(3)
 reb = true
@@ -63,7 +63,7 @@ game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
           return
     end
 wait(0.5)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/eliazbp92-collab/Endless-mode/refs/heads/main/Overseer"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/eliazbp92-collab/Endless-mode/refs/heads/main/Overseer.lua"))()
 if seer == false then
 wait(3)
 seer = true
@@ -86,7 +86,7 @@ coroutine.wrap(function()
           return
     end
         wait(0.3)
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/eliazbp92-collab/Endless-mode/refs/heads/main/Matcher"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/eliazbp92-collab/Endless-mode/refs/heads/main/Matcher.lua"))()
         if mat == false then
         wait(3)
         mat = true
@@ -108,7 +108,7 @@ coroutine.wrap(function()
           if workspace:FindFirstChild("SeekMovingNewClone") or workspace.CurrentRooms:FindFirstChild("50") then
           return
     end
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/eliazbp92-collab/Endless-mode/refs/heads/main/Claim"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/eliazbp92-collab/Endless-mode/refs/heads/main/Claim.lua"))()
 if clam == false then
 wait(3)
 clam = true
@@ -233,7 +233,7 @@ coroutine.wrap(function()
           if workspace:FindFirstChild("SeekMovingNewClone") or workspace.CurrentRooms:FindFirstChild("50") then
           return
     end
-       loadstring(game:HttpGet("https://raw.githubusercontent.com/eliazbp92-collab/Endless-mode/refs/heads/main/Blink"))()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/eliazbp92-collab/Endless-mode/refs/heads/main/Blink.lua"))()
         if blink == false then
             wait(5)
             blink = true
