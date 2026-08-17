@@ -121,7 +121,7 @@ end)
 entity:SetCallback("OnStartMoving", function()
 	print("Entity has started moving")
                    	game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/eoyoustme/Endless-Doors/refs/heads/main/Rebound4"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/eoyoustme/Endless-Doors/refs/heads/main/Rebound4.lua"))()
 end)
 
 entity:SetCallback("OnEnterRoom", function(room: Model, firstTime: boolean)
