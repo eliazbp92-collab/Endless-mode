@@ -10,11 +10,11 @@ local clam = false
 
 Caption('You Executed the Script', 2)
 wait(2)
-Caption('Credits to zavaled for Making Endless Doors',1)
+Caption('mode made by Rebound',1)
 wait(2)
-Caption('Credits to Cyrratti for making the original script.',3)
+Caption('Pro tip, /god for god mode.',3)
 wait(3)
-Caption('Credits to DripCapybara for fixing Endless Mode',3)
+Caption('this script is copy of a differnt scipt soooooooooo it fine',3)
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/check78/Endless-Doors-In-Doors/main/custom%20doors%20sounds.txt"))()
 loadstring(game:HttpGet("https://pastebin.com/raw/6brG9uma"))()
